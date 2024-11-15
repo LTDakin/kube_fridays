@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "kube-fridays"
+version = "0.1.0"
+description = "test for kube"
+authors = ["Lloyd Dakin <taidakin99lol@gmail.com>"]
+readme = "README.md"
+packages = [{include = "kube_fridays"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^5.1.3"
+gunicorn = "^23.0.0"
+gevent = "^24.10.3"
+uvicorn = "^0.32.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
